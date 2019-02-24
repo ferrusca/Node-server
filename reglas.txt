@@ -1,0 +1,3 @@
+REGLA->1;METODO;regex:”^TRACE$”;Bloqueo de método TRACE de HTTP;codigo:404
+REGLA->2;RECURSO|CUERPO;iregex:”.*<script.*>.*</script>.*”;Intento de XSS;codigo:500
+REGLA->3;AGENTE_USUARIO;regex:".*curl.*";Registro de eventos desde curl;ignorar

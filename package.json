@@ -1,0 +1,20 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "proyecto para el modulo de aplicaciones web",
+  "main": "index.js",
+  "scripts": {
+    "devserver": "./node_modules/nodemon/bin/nodemon.js index.js"
+  },
+  "author": "JLF",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "express": "^4.15.2",
+    "minimist": "^1.2.0",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
