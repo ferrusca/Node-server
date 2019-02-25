@@ -1,5 +1,6 @@
 # Servidor Web
-Proyecto para _Seguridad en aplicaciones Web_. \n
+Proyecto para _Seguridad en aplicaciones Web_.
+
 Implementación de un servidor mediante sockets y un _Web Application Firewall_ en `Node.js` 
 
 ## Integrantes
