@@ -1,4 +1,4 @@
-# servidor-net
+# Servidor Web
 Proyecto para _Seguridad en aplicaciones Web_. \n
 Implementación de un servidor mediante sockets y un _Web Application Firewall_ en `Node.js` 
 
@@ -47,9 +47,9 @@ node index.js [port] [logFile] [rules]
 ```
 
 Opciones:
-- `-p, --port&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Puerto por el cual se abrirá el socket (default: 8080)`
-- `-l, --log&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nombre del archivo donde se guardará el log de acceso`
-- `-w, --waf&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nombre del archivo de reglas (ej. reglas.txt)`
+- `-p, --port 	Puerto por el cual se abrirá el socket (default: 8080)`
+- `-l, --log 		Nombre del archivo donde se guardará el log de acceso`
+- `-w, --waf 		Nombre del archivo de reglas (ej. reglas.txt)`
 
 Por ejemplo, para correr con todas las opciones: 
 ```sh
