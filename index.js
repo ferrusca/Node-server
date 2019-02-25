@@ -163,7 +163,7 @@ const setEnviromentVariables = (remoteAddress, remotePort, tokens) => {
  * Por ejemplo: foo/?bar=baz terminaría en foo/
  * @param {object} tokens - headers recibidos en el request
  * (también recibe el header principal de tipo HTTP/1.0 /algo GET)
- * @returns {object} tokens - headers modificados, ya sin los datos de la peticion GET 
+ * @returns {object} headers modificados, ya sin los datos de la peticion GET 
  */
 const parseEndpoint = (tokens) => {
   let request = principalHeader.split(' ')[1]
@@ -207,7 +207,7 @@ const getHeader = (caption, tokens) => {
 /**
  * Parsea la petición completa
  * @param {string} data - la cadena completa de la petición
- * @returns {object} maped - la petición ahora mapeada a un objeto (clave-valor) 
+ * @returns {object} la petición ahora mapeada a un objeto (clave-valor) 
  */
 function parseRequest(data) {
   let tokens = data.split(": ")
