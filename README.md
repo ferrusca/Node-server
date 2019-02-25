@@ -48,9 +48,9 @@ node index.js [port] [logFile] [rules]
 ```
 
 Opciones:
-- `-p, --port 	Puerto por el cual se abrirá el socket (default: 8080)`
-- `-l, --log 		Nombre del archivo donde se guardará el log de acceso`
-- `-w, --waf 		Nombre del archivo de reglas (ej. reglas.txt)`
+- `-p, --port - Puerto por el cual se abrirá el socket (default: 8080)`
+- `-l, --log - Nombre del archivo donde se guardará el log de acceso`
+- `-w, --waf - Nombre del archivo de reglas (ej. reglas.txt)`
 
 Por ejemplo, para correr con todas las opciones: 
 ```sh
