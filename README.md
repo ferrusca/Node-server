@@ -1,12 +1,12 @@
 # servidor-net
-Proyecto para _Seguridad en aplicaciones Web_. 
+Proyecto para _Seguridad en aplicaciones Web_. \n
 Implementación de un servidor mediante sockets y un _Web Application Firewall_ en `Node.js` 
 
 ## Integrantes
 
-- Ferrusca Ortiz Jorge
+- Ferrusca Ortiz Jorge L.
 
-## Ejecución
+## Instalación
 
 - Para ejecutar, se debe contar al menos con **Node.js v8.x** o superior.
 
@@ -22,13 +22,13 @@ curl -sL https://deb.nodesource.com/setup_11.x | bash -
 apt-get install -y nodejs
 ```
 
-\* En caso de tener otra distribución, revisar el [README](https://github.com/nodesource/distributions/blob/master/README.md#debinstall) de instalación oficial.
+\*En caso de tener otra distribución, revisar el [README](https://github.com/nodesource/distributions/blob/master/README.md#debinstall) de instalación oficial.
 
 - Verificar la instalación ejecutando `node -v`.
 
-- - - - - - 
+## Ejecución
 
-El siguiente paso es clonar este repo vía [HTTPS](https://github.com/mp4-28/servidor-net.git) o [SSH](git@github.com:mp4-28/servidor-net.git) o bien, descargar el [ZIP](https://github.com/mp4-28/servidor-net/archive/master.zip)
+El siguiente paso es clonar este repo vía [https](https://github.com/mp4-28/servidor-net.git) o [ssh](git@github.com:mp4-28/servidor-net.git) o bien, descargar el [ZIP](https://github.com/mp4-28/servidor-net/archive/master.zip).
 
 Los archivos fundamentales para correr el proyecto son: 
 - `index.js` (archivo principal)
@@ -47,11 +47,11 @@ node index.js [port] [logFile] [rules]
 ```
 
 Opciones:
-- `-p, --port 	Puerto por el cual se abrirá el socket (default: 8080)`
-- `-l, --log 		Nombre del archivo donde se guardará el log de acceso`
-- `-w, --waf 		Nombre del archivo de reglas (ej. reglas.txt)`
+- `-p, --port&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Puerto por el cual se abrirá el socket (default: 8080)`
+- `-l, --log&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nombre del archivo donde se guardará el log de acceso`
+- `-w, --waf&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nombre del archivo de reglas (ej. reglas.txt)`
 
-Por ejemplo, para correr con todas las opciones sería: 
+Por ejemplo, para correr con todas las opciones: 
 ```sh
 node index.js -p 1234 -l=acceso.log -waf=reglas.txt
 ```
