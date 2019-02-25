@@ -56,3 +56,5 @@ Por ejemplo, para correr con todas las opciones:
 ```sh
 node index.js -p 1234 -l=acceso.log -waf=reglas.txt
 ```
+
+Esto correrá el servidor por el puerto _**1234**_, grabará los registros en el archivo _**acceso.log**_ y activará el _WAF_ leyendo las reglas de _**reglas.txt**_.
